@@ -1,4 +1,4 @@
-// import './styles/financeCoach.css';
+import '../styles/financeCoach.css';
 
 function financeCoach() {
   return (
