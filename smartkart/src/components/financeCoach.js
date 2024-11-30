@@ -1,6 +1,6 @@
 import '../styles/financeCoach.css';
 
-function financeCoach() {
+function FinanceCoach() {
   return (
     <div className="finance-coach">
       <h1>Here are some recommendations to help you reduce your spending:</h1>
@@ -19,4 +19,4 @@ function financeCoach() {
   );
 }
 
-export default financeCoach;
+export default FinanceCoach;
