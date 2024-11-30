@@ -1,0 +1,23 @@
+.finance-coach {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .finance-coach h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .recommendations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .recommendation-card {
+    background-color: #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    min-height: 200px;
+  }

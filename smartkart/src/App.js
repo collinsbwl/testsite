@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
-import FinancialCoach from './components/FinancialCoach';
+import financeCoach from './components/financeCoach';
 import './App.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/dashboard" element={<Navigate to="http://localhost:8501" />} /> {/* Your Streamlit URL */}
-          <Route path="/financial-coach" element={<FinancialCoach />} />
+          <Route path="/finance-coach" element={<financeCoach />} />
           <Route path="/" element={<Navigate to="/dashboard" />} />
         </Routes>
       </div>
