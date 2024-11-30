@@ -16,10 +16,10 @@ function Header() {
             Dashboard
           </Link>
           <Link 
-            to="/financial-coach" 
-            className={`nav-tab ${location.pathname === '/finance-coach' ? 'active' : ''}`}
+            to="/financeCoach" 
+            className={`nav-tab ${location.pathname === '/financeCoach' ? 'active' : ''}`}
           >
-            Financial coach
+            CubbyCoach
           </Link>
         </nav>
       </div>
