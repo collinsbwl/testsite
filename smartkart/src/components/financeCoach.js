@@ -1,18 +1,21 @@
+import { useState } from 'react';
 import '../styles/financeCoach.css';
 
 function FinanceCoach() {
   return (
-    <div className="financeCoach">
-      <h1>Here are some recommendations to help you reduce your spending:</h1>
-      <div className="recommendations-grid">
-        <div className="recommendation-card">
-          {/* Recommendation content will go here */}
+    <div className="chat-container">
+      <div className="chat-header">
+        <div className="coach-info">
+          <div className="coach-avatar"></div>
+          <div className="coach-details">
+            <h3 className="coach-name">Cubby Coach</h3>
+            <span className="coach-status">Status: Grumpy!</span>
+          </div>
         </div>
-        <div className="recommendation-card">
-          {/* Recommendation content will go here */}
-        </div>
-        <div className="recommendation-card">
-          {/* Recommendation content will go here */}
+      </div>
+      <div className="chat-content">
+        <div className="chat-title">
+          <h1>Hey, what do you want to do today?</h1>
         </div>
       </div>
     </div>

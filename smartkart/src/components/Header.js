@@ -19,7 +19,7 @@ function Header() {
             to="/financeCoach" 
             className={`nav-tab ${location.pathname === '/financeCoach' ? 'active' : ''}`}
           >
-            CubbyCoach
+            Cubby Coach
           </Link>
         </nav>
       </div>
