@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import './styles/Header.css';
+// import './styles/Header.css';
 
 function Header() {
   const location = useLocation();
@@ -17,7 +17,7 @@ function Header() {
           </Link>
           <Link 
             to="/financial-coach" 
-            className={`nav-tab ${location.pathname === '/financial-coach' ? 'active' : ''}`}
+            className={`nav-tab ${location.pathname === '/finance-coach' ? 'active' : ''}`}
           >
             Financial coach
           </Link>
