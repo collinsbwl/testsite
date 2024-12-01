@@ -15,10 +15,10 @@ function Header() {
     location: ''
   });
 
-  const housingTypes = ['Apartment', 'House', 'Sublets'];
-  const bedroomOptions = ['Studio', '1', '2', '3', '4+'];
-  const utilityOptions = ['A/C', 'Private Bedroom', 'Laundry', 'Parking', 'Internet Incl'];
-  const locationOptions = ['Downtown', 'Old North', 'Near South', 'Near West', 'Masonville', 'North London'];
+  const housingTypes = ['  Apartment', '  House', '  Sublets'];
+  const bedroomOptions = ['  Studio', '  1', '  2', '  3', '  4+'];
+  const utilityOptions = ['  A/C', '  Private Bedroom', '  Laundry', '  Parking', '  Internet Incl'];
+  const locationOptions = ['  Downtown', '  Old North', '  Near South', 'Near West', '  Masonville', '  North London'];
 
   const toggleMainDropdown = (e) => {
     e.stopPropagation();
@@ -96,8 +96,8 @@ function Header() {
                 className="w-full flex items-center justify-between px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors duration-200"
               >
                 <div className="flex items-center gap-3">
-                  <Home size={16} />
-                  <span>{selections.housingType || 'Housing Type'}</span>
+                  <Home size={13} />
+                  <span>{selections.housingType || '  Housing Type'}</span>
                 </div>
                 {expandedSection === 'housingType' ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
               </button>
@@ -124,7 +124,7 @@ function Header() {
               >
                 <div className="flex items-center gap-3">
                   <Bed size={16} />
-                  <span>{selections.bedrooms || 'Bedrooms'}</span>
+                  <span>{selections.bedrooms || '  Bedrooms'}</span>
                 </div>
                 {expandedSection === 'bedrooms' ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
               </button>
@@ -151,7 +151,7 @@ function Header() {
               >
                 <div className="flex items-center gap-3">
                   <Zap size={16} />
-                  <span>{selections.utilities.length ? `${selections.utilities.length} selected` : 'Utilities'}</span>
+                  <span>{selections.utilities.length ? `${selections.utilities.length} selected` : '  Utilities'}</span>
                 </div>
                 {expandedSection === 'utilities' ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
               </button>
@@ -184,7 +184,7 @@ function Header() {
               >
                 <div className="flex items-center gap-3">
                   <MapPin size={16} />
-                  <span>{selections.location || 'Location'}</span>
+                  <span>{selections.location || ' Location'}</span>
                 </div>
                 {expandedSection === 'location' ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
               </button>
