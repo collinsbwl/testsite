@@ -5,7 +5,7 @@ import neutralImg from '../neutral.png';
 import angryImg from '../angry.png';
 
 function FinanceCoach() {
-  const [coachStatus, setCoachStatus] = useState('neutral'); // You can set default status
+  const [coachStatus, setCoachStatus] = useState('neutral'); // default status neutral
 
   const statusToImage = {
     happy: happyImg,
