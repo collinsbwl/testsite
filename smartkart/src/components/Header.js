@@ -67,19 +67,19 @@ function Header() {
             to="/dashboard" 
             className={`nav-tab ${location.pathname === '/dashboard' ? 'active' : ''}`}
           >
-            Dashboard
+            <h4>Dashboard</h4>
           </Link>
           <Link 
             to="/financeCoach" 
             className={`nav-tab ${location.pathname === '/financeCoach' ? 'active' : ''}`}
           >
-            Cubby Coach
+            <h4>Cubby Coach</h4>
           </Link>
           <Link 
             to="/tinder" 
             className={`nav-tab ${location.pathname === '/tinder' ? 'active' : ''}`}
           >
-            House Match
+            <h4>House Match</h4>
           </Link>
         </nav>
       </div>
