@@ -29,9 +29,10 @@
 }
 
 .coach-avatar, .coach-avatar-small {
-  background-image: url();
-  background-size: cover;
-  background-position: center;
+  background-size: 76%;
+  background-position: calc(50% + 0.5px) 6px;
+  background-image: var(--coach-image);
+  background-repeat: no-repeat;
   border-radius: 50%;
 }
 
@@ -73,8 +74,8 @@
   content: "";
   display: inline-block;
   width: 8px;
-  height: 8px;
-  background-color: #43a047;
+  height: 8px; 
+  background-color: var(--dot-color);
   border-radius: 50%;
 }
 
