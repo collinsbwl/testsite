@@ -21,6 +21,12 @@ function Header() {
           >
             Cubby Coach
           </Link>
+          <Link 
+            to="/tinder" 
+            className={`nav-tab ${location.pathname === '/tinder' ? 'active' : ''}`}
+          >
+            Tinder
+          </Link>
         </nav>
       </div>
       <div className="profile-icon">
